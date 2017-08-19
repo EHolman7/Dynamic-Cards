@@ -1,3 +1,69 @@
 body {
 	background: blue;
 }
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2bb8a5);
+  background-image: -moz-linear-gradient(top, #3498db, #2bb8a5);
+  background-image: -ms-linear-gradient(top, #3498db, #2bb8a5);
+  background-image: -o-linear-gradient(top, #3498db, #2bb8a5);
+  background-image: linear-gradient(to bottom, #3498db, #2bb8a5);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 1px 1px 5px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #34d97b);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #34d97b);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #34d97b);
+  background-image: -o-linear-gradient(top, #3cb0fd, #34d97b);
+  background-image: linear-gradient(to bottom, #3cb0fd, #34d97b);
+  text-decoration: none;
+}
+.cardBox{
+	border: solid black 3px;
+  border-radius: 26%;
+	display: inline-block;
+	width: 300px;
+	height: 300px;
+	margin: 20px;
+}
+.dbtn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2bb8a5);
+  background-image: -moz-linear-gradient(top, #3498db, #2bb8a5);
+  background-image: -ms-linear-gradient(top, #3498db, #2bb8a5);
+  background-image: -o-linear-gradient(top, #3498db, #2bb8a5);
+  background-image: linear-gradient(to bottom, #3498db, #2bb8a5);
+  -webkit-border-radius: 75;
+  -moz-border-radius: 75;
+  border-radius: 75px;
+  text-shadow: 1px 1px 5px #575257;
+  font-family: Georgia;
+  color: #000000;
+  font-size: 12px;
+  padding: 10px 20px 10px 20px;
+  border: dotted #1f628d 2px;
+  text-decoration: none;
+}
+
+.dbtn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #34d97b);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #34d97b);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #34d97b);
+  background-image: -o-linear-gradient(top, #3cb0fd, #34d97b);
+  background-image: linear-gradient(to bottom, #3cb0fd, #34d97b);
+  text-decoration: none;
+}
+#deleteCard{
+	
+}
